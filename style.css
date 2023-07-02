@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+    background: url(https://source.unsplash.com/random/1600x900/) no-repeat center/cover;
+    min-height: 100vh;
+    
+}
+.wearth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    background: rgba(242, 235, 235, 0.884);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    gap: 20px;
+   
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+.search {
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+.search-input {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.468);
+    color: black;
+    padding-left: 20px;
+
+    
+}
+.search-input::placeholder {
+    color: white;
+}
+
+
+.search-btn {
+    border-radius: 10px;
+    border: none;
+    background: greenyellow;
+    padding: 10px 8px;
+    color: white;
+}
+
+.card h1 {
+    font-size: 26px;
+    color: black;
+}
+.card h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.wearther {
+    margin-top: 10px;
+}
+.wearther h3 {
+    color: black;
+    
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+.error {
+    color: red;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    display: none;
+
+}
+
