@@ -32,20 +32,14 @@ search.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {
     weather.fetchWeather(e.target.value);
     search.value = "";
-  } else if (search.value === undefined) {
-    error.style.display = "block";
-    box.style.display = "none";
-  }
+  } 
 });
 
 button.addEventListener("click", () => {
   weather.fetchWeather(search.value);
   search.value = "";
 
-  if (search.value === undefined) {
-    error.style.display = "block";
-    box.style.display = "none";
-  }
+ 
 });
 
 // weather.fetchWeather("Karakol");
